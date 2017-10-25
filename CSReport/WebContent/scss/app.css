@@ -1,0 +1,42 @@
+.flexbox-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 400px;
+  height: 250px;
+  background-color: lightgrey; }
+
+.tabs div {
+  background-color: #1edab0;
+  display: inline-block;
+  width: 24.5%;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  margin-bottom: 5px; }
+
+div.home {
+  background-color: #ffd880;
+  color: #68838a; }
+
+.page-header {
+  text-align: center; }
+
+.flex-part > div {
+  background-color: cornflowerblue;
+  width: 100px;
+  height: 100px;
+  margin: 10px; }
+  .flex-part > div .flex-item1 {
+    background-image: url("../images/image01.jpg"); }
+  .flex-part > div .flex-item2 {
+    background-image: url("../images/image02.jpg"); }
+  .flex-part > div .flex-item3 {
+    background-image: url("../images/image03.jpg"); }
+  .flex-part > div .flex-item4 {
+    background-image: url("../images/image04.jpg"); }
+
+.page-footer {
+  padding: 20px;
+  background: red; }
+
+/*# sourceMappingURL=app.css.map */
